@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+@import url("./styles/header.css");
+@import url("./styles/preview.css");
+@import url("./styles/news.css");
+@import url("./styles/about.css");
+@import url("./styles/footer.css");
+body {
+  font-family: OpenSans, Arial, serif;
+}
+
+.button-primary {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.42;
+}
