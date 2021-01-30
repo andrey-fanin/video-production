@@ -7,7 +7,7 @@
   <title>video-production</title>
 </head>
 <body>
-  <div class="wrapper">
+  <div class="wrapper main-page-wrapper">
     <section class="preview">
       <div class="container">
         <header class="header">
@@ -47,7 +47,7 @@
                 <div class="features__option"><span class="features__option-special">28</span> дней работы в среднем</div>
               </div>
               <p class="features__description">Креатив и производство рекламы, документального и корпоративного контента.</p>
-              <a href="" class="button-primary">Подробнее</a>
+              <a href="" class="button-primary btn--color--white">Подробнее</a>
             </li>
             <li class="features__item">
               <img src="./images/clapper.png" alt="" class="features__icon">
@@ -57,7 +57,7 @@
                 <div class="features__option"><span class="features__option-special">21</span> день работы в среднем</div>
               </div>
               <p class="features__description">Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно! </p>
-              <a href="" class="button-primary">Подробнее</a>
+              <a href="" class="button-primary btn--color--orange">Подробнее</a>
             </li>
             <li class="features__item">
               <img src="./images/film.png" alt="" class="features__icon">
@@ -67,7 +67,7 @@
                 <div class="features__option"><span class="features__option-special">30</span> дней работы в среднем</div>
               </div>
               <p class="features__description">Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.</p>
-              <a href="" class="button-primary">Подробнее</a>
+              <a href="" class="button-primary btn--color--white">Подробнее</a>
             </li>
           </ul>
         </div>
@@ -78,53 +78,59 @@
         <h2 class="container__title">НОВОСТИ И АКЦИИ</h2>
           <ul class="news__list">
            <li class="news__item">
-            <div class="news__date">Декабрь 2019</div>
-            <div class="news__item-title">Снимем ваш клип на 50% дешевле</div>
-            <p class="news__text">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты.</p>
+            <img src="./images/camera.jpg" alt="" class="news__img">
+            <div class="news__text-content">
+              <div class="news__date">Декабрь 2019</div>
+              <div class="news__item-title">Снимем ваш клип на 50% дешевле</div>
+              <p class="news__text">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты.</p>
+             </div>
            </li>
            <li class="news__item">
-            <div class="news__date">Декабрь 2019</div>
-            <div class="news__item-title">Акция для молодоженов 30%</div>
-            <p class="news__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
+            <img src="./images/wedding.jpg" alt="" class="news__img">
+            <div class="news__text-content">
+              <div class="news__date">Декабрь 2019</div>
+              <div class="news__item-title">Акция для молодоженов 30%</div>
+              <p class="news__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
+            </div>
            </li>
           </ul>
           <div class="pagination">
-            <div class="pagination__info">Страница <span class="pagination__index">1</span> из <span class="pagination__count">7</span>
-              <ul class="pagination__list">
-                <li class="pagination__item">
-                  <a href="" class="pagination__link">1</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="" class="pagination__link">2</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="" class="pagination__link">3</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="" class="pagination__link">4</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="" class="pagination__link">5</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="" class="pagination__link">6</a>
-                </li>
-                <li class="pagination__item">
-                  <a href="" class="pagination__link">7</a>
-                </li>
-              </ul>  
-            </div>  
+            <div class="pagination__info">Страница <span class="pagination__index">1</span> из <span class="pagination__count">7</span></div>  
+            <ul class="pagination__list">
+              <li class="pagination__item pagination__item--active">
+                <a href="" class="pagination__link">1</a>
+              </li>
+              <li class="pagination__item">
+                <a href="" class="pagination__link">2</a>
+              </li>
+              <li class="pagination__item">
+                <a href="" class="pagination__link">3</a>
+              </li>
+              <li class="pagination__item">
+                <a href="" class="pagination__link">4</a>
+              </li>
+              <li class="pagination__item">
+                <a href="" class="pagination__link">5</a>
+              </li>
+              <li class="pagination__item">
+                <a href="" class="pagination__link">6</a>
+              </li>
+              <li class="pagination__item">
+                <a href="" class="pagination__link">7</a>
+              </li>
+            </ul>  
           </div>  
       </div>
     </section>
     <section class="about">
       <div class="container">
-        <div class="about__content">
-          <h2 class="about__title">О НАС</h2>
-          <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
-          <a href="" class="button-primary">Подробнее</a>
+        <div class="about__info">
+          <div class="about__content">
+            <h2 class="about__title">О НАС</h2>
+            <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
+            <a href="" class="button-primary btn--color--orange">Подробнее</a>
+          </div>
         </div>
-        <img src="#" alt="" class="about__decoration">
       </div>
     </section>
   </div>
@@ -145,30 +151,22 @@
         </ul>
       </nav>
       <ul class="socials">
-        <li class="socials__item">
-          <a href="" class="socials__link">
-            <img src="./images/telegram.svg" alt="" class="socials__icon">
-          </a>
+        <li class="socials__item socials__item--icon--telegram">
+          <a href="" class="socials__link"></a>
         </li>
-        <li class="socials__item">
-          <a href="" class="socials__link">
-            <img src="./images/vk.svg" alt="" class="socials__icon">
-          </a>
+        <li class="socials__item socials__item--icon--vk">
+          <a href="" class="socials__link"></a>
         </li>
-        <li class="socials__item">
-          <a href="" class="socials__link">
-            <img src="./images/f.svg" alt="" class="socials__icon">
-          </a>
+        <li class="socials__item socials__item--icon--facebook">
+          <a href="" class="socials__link"></a>
         </li>
-        <li class="socials__item">
-          <a href="" class="socials__link">
-            <img src="./images/in.svg" alt="" class="socials__icon">
-          </a>
+        <li class="socials__item socials__item--icon--instagram">
+          <a href="" class="socials__link"></a>
         </li>
       </ul>
       <address class="footer__contacts">
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
         <div class="contacts__info">Бесплатный звонок по России</div>
+        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
       </address>
     </div>
   </footer>      

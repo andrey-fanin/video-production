@@ -1,9 +1,10 @@
+
 .preview-general {
   position: relative;
   width: 900px;
   text-align: center;
   left: 121px;
-  margin-bottom: 219px;
+  margin-bottom: 230px;
 }
 
 .preview-general__title {
@@ -22,7 +23,7 @@
   font-size: 18px;
   line-height: 1.42;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
   letter-spacing: 1px;
 }
 
@@ -31,6 +32,7 @@
   left: 0px;
   display: inline-block;
   text-align: center;
+  margin-bottom: 162px;
 }
 
 .features__list {
@@ -39,14 +41,15 @@
 }
 
 .features__item {
-  width: 317px;
-  height: 435px;
+  width: 319px;
+  min-height: 435px;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   border-radius: 5px;
   background: #FFFFFF;
-  padding: 20px;
-  margin: 13px;
+  padding: 20px 20px 20px 20px;
+  margin-right: 27px;
+  margin-bottom: 18px;
 }
 
 .features__item:nth-child(even) {
@@ -54,18 +57,17 @@
   padding: 15px;
 }
 
-.features__item:first-child {
-  margin-left: 0px;
-}
-
 .features__item:last-child{
   margin-right: 0px;
 }
 
 .features__icon {
-  margin-top: 22px;
+  margin-top: 19px;
   margin-left: 6px;
-  margin-bottom: -4px;
+}
+
+.features__item:first-child .features__icon {
+  margin-top: 15px;
 }
 
 .features__title {
@@ -74,7 +76,7 @@
   font-size: 32px;
   line-height: 1.42;  
   text-align: left;
-  margin-top: 30px;
+  margin-top: 27px;
   margin-bottom: 18px;
 
 }
@@ -86,11 +88,18 @@
   line-height: 1.25;
   color: #666666;
   text-align: left;
+  margin-bottom: 26px;
 }
 
 .features__option {
   display: inline-block;
-  width: 50%;
+  width: 119px;
+  vertical-align: top;
+  margin-right: 60px;
+}
+
+.features__option:last-child {
+  margin-right: 0px;
 }
 
 .features__description {
@@ -99,4 +108,43 @@
   font-size: 14px;
   line-height: 1.57;
   color: #666666;
+  height: 66px;
+  width: 306px;
+  margin-bottom: 26px;
+  letter-spacing: 0.6px;
 }
+
+.button-primary {
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.42;
+  background: #FF3D00;
+  border-radius: 35px;
+  padding: 18px 53px;
+  text-transform: uppercase;
+  border: 2px solid #FF5500;
+}
+
+.button-primary:hover{
+  background: #FF5500;
+}
+
+.btn--color--white {
+  background: white;
+  color: #FF5500;
+}
+
+.btn--color--orange {
+  background: #FF5500;
+}  
+
+.btn--color--white:hover {
+  background: #FF3D00;
+  color: white;
+}
+
+.btn--color--orange:hover {
+  background: #FF3D00;
+}  

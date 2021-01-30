@@ -29,20 +29,18 @@ body {
   background: #17191C;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-.button-primary {
-  display: inline-block;
-  font-style: normal;
+.features__option-special {
   font-weight: bold;
-  font-size: 14px;
-  line-height: 1.42;
-  background: #FF3D00;
-  border-radius: 35px;
-  padding: 18px 53px;
-  text-transform: uppercase;
+  color: black;
 }
 
-.button-primary:hover {
-  background: #FF3D00;
+p {
+  margin-top: 0;
+}
+
+.main-page-wrapper {
+  background: url(./images/background-top.jpg) center top no-repeat, url(./images/background-bottom.jpg) right bottom 108px no-repeat;
 }
