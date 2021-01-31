@@ -1,6 +1,6 @@
 .news {
   color: #FFFFFF;
-  margin-bottom: 152px;
+  margin-bottom: 147px;
 }
 
 .container__title {
@@ -16,7 +16,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 15px 30px;
+  padding: 1px 30px;
   min-height: 140px;
 }
 
@@ -59,7 +59,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.31;
+  line-height: 1.5;
 }
 
 .pagination {

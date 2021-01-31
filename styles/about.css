@@ -15,7 +15,7 @@
   vertical-align: top;
   width: 630px;
   margin-left: 354px;
-  margin-top: -416px;
+  margin-top: -412px;
 }
 
 .about__title {
@@ -33,7 +33,7 @@
   line-height: 1.69;
   width: 502px;
   color: #060606;
-  margin-bottom: 71px;
+  margin-bottom: 63px;
 }
 
 .about__text p {
@@ -46,5 +46,10 @@
 
 .about__info {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 0 0 46px 0;
+  padding: 0 0 61px 0;
+}
+
+.btn--about {
+  padding: 15px 38px;
+  background: #FF5400;
 }

@@ -1,20 +1,21 @@
-.footer {
+.container-footer {
   color: white;
   height: 146px;
   position: relative;
+  padding-bottom: 1px;
 }
 
 .logo__footer {
   display: block;
   position: absolute;
-  left: 391px;
+  left: 0;
   top: 41px;
 }
 
 .menu__footer {
   position: absolute;
-  top: 60px;
-  left: 719px;
+  top: 56px;
+  left: 329px;
 }
 
 .footer__item {
@@ -29,8 +30,8 @@
 
 .socials {
   position: absolute;
-  top: 50px;
-  left: 1086px;
+  top: 47px;
+  left: 696px;
 }
 
 .socials__item {
@@ -88,8 +89,8 @@
 
 .footer__contacts {
   position: absolute;
-  top: 43px;
-  right: 388px;
+  top: 39px;
+  right: 0px;
   text-align: right;
 }
 
