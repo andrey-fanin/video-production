@@ -9,7 +9,6 @@
 
 .about__content {
   background: white;
-  color: black;
   padding: 70px 80px;
   border-radius: 5px;
   display: inline-block;
@@ -24,6 +23,7 @@
   font-weight: 800;
   font-size: 36px;
   line-height: 1.42;
+  color: black;
   margin-bottom: 40px;
 }
 

@@ -2,8 +2,7 @@
   position: relative;
   width: 900px;
   text-align: center;
-  left: 121px;
-  margin-bottom: 230px;
+  margin: 0 auto 230px auto;
 }
 
 .preview-general__title {
@@ -86,9 +85,9 @@
 
 .features__option {
   display: inline-block;
-  width: 119px;
+  width: 123px;
   vertical-align: top;
-  margin-right: 60px;
+  margin-right: 53px;
 }
 
 .features__option:last-child {
@@ -116,6 +115,7 @@
   padding: 18px 53px;
   text-transform: uppercase;
   border: 2px solid #FF5500;
+  color: white;
 }
 
 .button-primary:hover {
