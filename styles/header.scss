@@ -10,7 +10,7 @@
   margin-bottom: 135px;
 }
 
-.logo__pic {
+.logo {
   display: block;
   position: absolute;
   left: 0;
@@ -31,6 +31,10 @@
   font-size: 14px;
   line-height: 1.42;
   margin-right: 53px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
 }
 
 .menu__link:hover {

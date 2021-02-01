@@ -24,12 +24,11 @@ h1, h2 {
 
 body {
   font-family: OpenSans, Arial, serif;
-  width: 1920px;
-  height: 2930px;
-  background: #17191C;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  margin: 0;
 }
 
 .features__option-special {
@@ -43,4 +42,6 @@ p {
 
 .main-page-wrapper {
   background: url(./images/background-top.jpg) center top no-repeat, url(./images/background-bottom.jpg) center bottom 165px no-repeat;
+  background-color: #17191C;
+  overflow: hidden;
 }

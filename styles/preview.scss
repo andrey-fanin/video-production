@@ -12,7 +12,6 @@
   font-weight: 800;
   font-size: 72px;
   line-height: 1.35;
-  color: white;
   margin-bottom: 16px;
   letter-spacing: 0.5;
 }
@@ -22,7 +21,6 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 1.42;
-  color: white;
   margin-bottom: 38px;
   letter-spacing: 1px;
 }
@@ -54,7 +52,7 @@
 
 .features__item:nth-child(even) {
   border: 5px solid #CCCCCC;
-  padding: 15px;
+  padding: 15px 15px 15px;
 }
 
 .features__item:last-child{
@@ -66,19 +64,15 @@
   margin-left: 6px;
 }
 
-.features__item:first-child .features__icon {
-  margin-top: 15px;
-}
-
 .features__title {
   font-style: normal;
   font-weight: bold;
+  color: black;
   font-size: 32px;
   line-height: 1.42;  
   text-align: left;
-  margin-top: 27px;
   margin-bottom: 18px;
-
+  padding-top: 30px;
 }
 
 .features__options  {
@@ -108,8 +102,6 @@
   font-size: 14px;
   line-height: 1.57;
   color: #666666;
-  height: 66px;
-  width: 306px;
   margin-bottom: 26px;
   letter-spacing: 0.6px;
 }
