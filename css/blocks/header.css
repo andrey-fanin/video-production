@@ -1,0 +1,64 @@
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.header {
+  height: 98px;
+  position: relative;
+  color: white;
+  margin-bottom: 135px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 21px;
+}
+
+.menu {
+  position: absolute;
+  top: 43px;
+  left: 440px;
+}
+
+.menu__item {
+  vertical-align: middle;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.42;
+  margin-right: 53px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link:hover {
+  color: #FF3D00;
+}
+
+.contacts {
+  position: absolute;
+  top: 26.64px;
+  right: 0px;
+  text-align: right;
+}
+
+.contacts__phone {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 1.42;
+  margin-bottom: 4px;
+}
+
+.contacts__dropdown--title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.54;
+  color: #FF3D00;
+}

@@ -1,47 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
-@import url("./styles/header.css");
-@import url("./styles/preview.css");
-@import url("./styles/news.css");
-@import url("./styles/about.css");
-@import url("./styles/footer.css");
-a, a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-ul li {
-  list-style-type: none;
-}
-
-h1, h2 {
-  margin: 0;
-}
-
-body {
-  font-family: "Open Sans", Arial, serif;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.features__option-special {
-  font-weight: bold;
-  color: black;
-}
-
-p {
-  margin-top: 0;
-}
-
-.main-page-wrapper {
-  background: url(./images/background-top.jpg) center top no-repeat, url(./images/background-bottom.jpg) center bottom 165px no-repeat;
-  background-color: #17191C;
-  overflow: hidden;
-}
+@import url("./css/layout/normalize.css");
+@import url("./css/layout/base.css");
+@import url("./css/layout/flexbox.css");
+@import url("./css/blocks/header.css");
+@import url("./css/blocks/preview.css");
+@import url("./css/blocks/news.css");
+@import url("./css/blocks/about.css");
+@import url("./css/blocks/footer.css");
