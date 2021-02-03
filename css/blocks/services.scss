@@ -1,0 +1,54 @@
+.breadcrumbs__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  
+  color: #9A9A9A;
+  }
+
+.breadcrumbs__item::before {
+  content: '/';
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+
+}
+
+.breadcrumbs__item:first-child::before {
+  content: '';
+  margin: 0;
+}
+
+.breadcrumbs--current {
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services__content {
+  background: #F4F5F5;
+}
+
+
+
+
+
+
+
+
+.partners {
+  background: #E5E5E5;
+}

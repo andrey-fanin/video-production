@@ -1,4 +1,4 @@
-.header {
+.container__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,8 +76,6 @@
 }
 .footer__list {
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .menu__footer {
@@ -91,4 +89,31 @@
   justify-items: center;
   align-items: center;
   flex: 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.breadcrumbs__menu {
+  display: inline-flex;
+}
+
+
+.partners__img {
+  display: flex;
 }
