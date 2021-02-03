@@ -20,18 +20,14 @@
   font-size: 18px;
   line-height: 1.42;
   margin-bottom: 38px;
-  letter-spacing: 1px;
 }
 
 .features {
-  position: relative;
-  left: 0px;
   text-align: center;
   margin-bottom: 162px;
 }
 
 .features__list {
-  display: inline;
   text-align: left;
 }
 
@@ -56,8 +52,7 @@
 }
 
 .features__icon {
-  margin-top: 19px;
-  margin-left: 6px;
+  margin: 19px 0px 30px 6px;
 }
 
 .features__title {
@@ -68,7 +63,6 @@
   line-height: 1.42;
   text-align: left;
   margin-bottom: 18px;
-  padding-top: 30px;
 }
 
 .features__options {

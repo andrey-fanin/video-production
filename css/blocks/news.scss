@@ -20,11 +20,14 @@
   min-height: 140px;
 }
 
+.news__list {
+  margin-bottom: 54px;
+}
+
 .news__item {
   width: 555px;
   vertical-align: top;
   position: relative;
-  margin-bottom: 54px;
 }
 
 .news__item:first-child {

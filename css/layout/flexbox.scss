@@ -1,6 +1,7 @@
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu__item {
@@ -66,9 +67,13 @@
 
 .container-footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.logo-footer {
+  flex: 11;
+}
 .footer__list {
   display: inline-flex;
   justify-content: center;
@@ -76,11 +81,14 @@
 }
 
 .menu__footer {
-  display: flex;
+  display: inline-flex;
+  justify-content: space-around;
+  flex: 23;
 }
 
 .socials {
   display: inline-flex;
   justify-items: center;
   align-items: center;
+  flex: 12;
 }
