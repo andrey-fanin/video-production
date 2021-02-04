@@ -107,13 +107,25 @@
 
 
 
-
-
 .breadcrumbs__menu {
   display: inline-flex;
 }
 
-
-.partners__img {
+.services__offers {
   display: flex;
+  flex-direction: column;
+}
+
+
+.services__offer {
+  justify-content: left;
+  display: inline-flex;
+}
+
+
+.partners__logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
 }
