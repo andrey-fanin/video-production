@@ -1,8 +1,20 @@
+.header {
+  padding-top: 25px;
+  min-height: 170px;
+}
+
 .container__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.container__preview {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
 
 .menu__item {
   display: inline-flex;
@@ -14,7 +26,10 @@
 
 
 
-
+.feature {
+  display: flex;
+  flex-direction: column;
+}
 
 .features {
   display: flex;
@@ -26,16 +41,43 @@
   flex-direction: column;
 }
 
+.features__options {
+  display: flex;
+  justify-content: space-between;
+}
+
 .button-primary {
   display: inline-flex;
 }
 
+
+
+
+
+
+
+.news__list {
+  display: flex;
+  justify-content: space-between;
+}
+
 .news__item {
-  display: inline-flex;
+  flex: 1;
 }
 
-.pagination__info {
-  display: inline-flex;
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination__list {
+  display: flex;
+  align-items: center;  
+}
+
+.pagination__item {
+  text-align: center;
 }
 
 
@@ -48,12 +90,16 @@
 
 
 
-
-.about__content {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: baseline;
+.about__info {
+  display: flex;
 }
+
+
+// .about__content {
+//   display: inline-flex;
+//   flex-direction: column;
+//   align-items: baseline;
+// }
 
 
 
@@ -67,28 +113,28 @@
 
 .container-footer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.footer__col {
+  display: flex;
   align-items: center;
 }
 
-.logo-footer {
-  flex: 11;
+.footer__col--align--right {
+  justify-content: flex-end;
 }
+
 .footer__list {
   display: inline-flex;
 }
 
-.menu__footer {
-  display: inline-flex;
-  justify-content: space-around;
-  flex: 23;
-}
 
 .socials {
   display: inline-flex;
   justify-items: center;
   align-items: center;
-  flex: 12;
 }
 
 
@@ -99,6 +145,27 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+.services__preview {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__preview {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 
 
@@ -108,7 +175,7 @@
 
 
 .breadcrumbs__menu {
-  display: inline-flex;
+  display: flex;
 }
 
 .services__offers {
@@ -118,14 +185,34 @@
 
 
 .services__offer {
-  justify-content: left;
+  justify-content: flex-start;
   display: inline-flex;
 }
 
 
-.partners__logo {
+
+
+
+
+.offer__text {
+  flex: 1;
+}
+
+// .partners__logo {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   align-items: baseline;
+// }
+
+
+.partners__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: baseline;
+}
+
+.partners__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,5 +1,6 @@
 .footer {
   background: #17191C;
+  margin-top: auto;
 }
 
 .container-footer {
@@ -10,6 +11,7 @@
 }
 
 .menu__footer {
+  margin-left: 134px;
 }
 
 .footer__item {
@@ -24,6 +26,10 @@
 
 .footer__item:last-child {
   margin-right: 0;
+}
+
+.socials {
+  margin-right: 61px;
 }
 
 .socials__item {

@@ -1,10 +1,13 @@
 .about__info:before {
   content: "";
   display: block;
-  vertical-align: top;
-  width: 490px;
+  max-width: 490px;
   height: 505px;
   background: url("../../images/content/cameraman.jpg") center center/cover no-repeat;
+}
+
+.about__info {
+  display: block;
 }
 
 .about__content {

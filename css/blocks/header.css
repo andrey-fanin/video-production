@@ -1,16 +1,11 @@
 .header {
-  margin-bottom: 135px;
+  margin-bottom: 35px;
+  color: white;
 }
 
 .container {
   margin: 0 auto;
   width: 1140px;
-}
-
-.container__header {
-  height: 98px;
-  position: relative;
-  color: white;
 }
 
 .menu__item {
