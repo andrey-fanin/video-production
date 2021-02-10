@@ -1,0 +1,17 @@
+.welcome__rec {
+  position: relative;
+  display: block;
+  object-fit: cover;
+  top: 102px;
+}
+
+.welcome__logo {
+  display: block;
+  position: relative;
+  bottom: 320px;
+}
+
+.btn--welcome {
+  position: relative;
+  bottom: 284px;
+}

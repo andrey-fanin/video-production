@@ -69,6 +69,7 @@
 
 .pagination__item--active .pagination__link {
   background: #FF5500;
+  color: white;
 }
 
 .pagination__link {
@@ -78,9 +79,6 @@
   border-radius: 50%;
   position: relative;
   line-height: 32px;
-}
-
-.pagination__text {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;

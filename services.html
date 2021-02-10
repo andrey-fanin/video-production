@@ -2,49 +2,45 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
   <link rel="stylesheet" href="./main.css">
-  <link rel="stylesheet" href="./css/layout/base.css">
-  <link rel="stylesheet" href="./css/layout/normalize.css">
   <title>Услуги</title>
 </head>
 <body>
   <div class="wrapper services-wrapper">
-    <div class="wrapper__content">
-      <section class="services__preview">
-        <div class="container container__preview">
-          <header class="header">
-            <div class="container container__header">
-                <a href="#" class="logo"><img src="./images/logo/logo.png" alt="video production logo" class="logo__pic"></a>
-                <nav class="menu">
-                  <ul class="menu__list">
-                    <li class="menu__item">
-                      <a href="" class="menu__link">Главная</a>
-                    </li>
-                    <li class="menu__item">
-                      <a href="" class="menu__link">Услуги</a>
-                    </li>
-                    <li class="menu__item">
-                      <a href="" class="menu__link">Отзывы</a>
-                    </li>
-                  </ul>
-                </nav>
-                <address class="contacts">
-                  <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                  <div class="contacts__dropdown--title">График работы</div>
-                </address>
-            </div>
+    <div class="services-wrapper__content">
+      <section class="top-line">
+        <div class="container top-line__container">
+          <header class="header">          
+            <a href="index.html" class="logo"><img src="./images/logo/logo.png" alt="video production logo" class="logo__pic"></a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="index.html" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a href="services.html" class="menu__link">Услуги</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Отзывы</a>
+                </li>
+              </ul>
+            </nav>
+            <address class="contacts">
+              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+              <div class="contacts__dropdown--title">График работы</div>
+            </address>            
           </header>  
-          <h1 class="services__title">Услуги</h1>
+          <h1 class="top-line__title">Услуги</h1>
           <nav class="breadcrumbs">
             <ul class="breadcrumbs__menu">
-              <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link"><span class="breadcrumbs__item-underline">Главная</span></a></li>
-              <li class="breadcrumbs__item breadcrumbs__item--active"><a href="#" class="breadcrumbs__link"><span class="breadcrumbs__item-special">Услуги</span></a></li>
+              <li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link"><span class="breadcrumbs__item-underline">Главная</span></a></li>
+              <li class="breadcrumbs__item breadcrumbs__item--active"><a href="services.html" class="breadcrumbs__link"><span class="breadcrumbs__item-special">Услуги</span></a></li>
             </ul>
           </nav>
         </div>
       </section>
-      <section class="services__content">
+      <section class="services">
         <div class="container">
           <ul class="services__offers">
             <li class="services__offer service">
@@ -93,7 +89,7 @@
         </div>
       </section>
       <section class="partners partners--bg--grey">
-        <div class="container container__partners">
+        <div class="container partners__container">
           <div class="partners__title">Партнёры</div>
             <ul class="partners__list">
               <li class="partners__item">
@@ -138,48 +134,48 @@
               </li>
             </ul>
         </div>
-      </section>
-      <footer class="footer">
-        <div class="container container-footer">
-          <div class="footer__col">
-            <a href="#" class="logo-footer"><img src="./images/logo/logo.png" alt="video production logo" class="logo__footer"></a>
-            <nav class="menu__footer">
-              <ul class="footer__list">
-                <li class="footer__item">
-                  <a href="" class="footer__link">Главная</a>
-                </li>
-                <li class="footer__item">
-                  <a href="" class="footer__link">Услуги</a>
-                </li>
-                <li class="footer__item">
-                  <a href="" class="footer__link">Отзывы</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="footer__col footer__col--align--right">
-            <ul class="socials">
-              <li class="socials__item socials__item--icon--telegram">
-                <a href="" class="socials__link"></a>
+      </section> 
+    </div>    
+    <footer class="footer">
+      <div class="container container-footer">
+        <div class="footer__col">
+          <a href="index.html" class="logo"><img src="./images/logo/logo.png" alt="video production logo" class="logo"></a>
+          <nav class="menu menu__footer">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="index.html" class="menu__link">Главная</a>
               </li>
-              <li class="socials__item socials__item--icon--vk">
-                <a href="" class="socials__link"></a>
+              <li class="menu__item">
+                <a href="services.html" class="menu__link">Услуги</a>
               </li>
-              <li class="socials__item socials__item--icon--facebook">
-                <a href="" class="socials__link"></a>
-              </li>
-              <li class="socials__item socials__item--icon--instagram">
-                <a href="" class="socials__link"></a>
+              <li class="menu__item">
+                <a href="" class="menu__link">Отзывы</a>
               </li>
             </ul>
-            <address class="footer__contacts">
-              <div class="contacts__info">Бесплатный звонок по России</div>
-              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            </address>
-          </div>
+          </nav>
         </div>
-      </footer>  
-    </div>
+        <div class="footer__col footer__col--align--right">
+          <ul class="socials">
+            <li class="socials__item socials__item--icon--telegram">
+              <a href="" class="socials__link"></a>
+            </li>
+            <li class="socials__item socials__item--icon--vk">
+              <a href="" class="socials__link"></a>
+            </li>
+            <li class="socials__item socials__item--icon--facebook">
+              <a href="" class="socials__link"></a>
+            </li>
+            <li class="socials__item socials__item--icon--instagram">
+              <a href="" class="socials__link"></a>
+            </li>
+          </ul>
+          <address class="contacts footer__contacts">
+            <div class="contacts__info">Бесплатный звонок по России</div>
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+          </address>
+        </div>
+      </div>
+    </footer> 
   </div>
 </body>
 </html>

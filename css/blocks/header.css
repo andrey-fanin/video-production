@@ -1,11 +1,21 @@
 .header {
-  margin-bottom: 35px;
   color: white;
+  padding-top: 12px;
+  margin-bottom: 115px;
+}
+
+.header-main {
+  margin-bottom: 151px;
+  padding-top: 25px;
 }
 
 .container {
   margin: 0 auto;
   width: 1140px;
+}
+
+.menu {
+  padding-top: 16px;
 }
 
 .menu__item {
@@ -27,20 +37,20 @@
 
 .contacts {
   text-align: right;
+  padding-top: 14px;
 }
 
 .contacts__phone {
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
-  line-height: 1.42;
-  margin-bottom: 4px;
+  line-height: 1;
 }
 
 .contacts__dropdown--title {
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
-  line-height: 1.54;
+  line-height: 1;
   color: #FF3D00;
 }

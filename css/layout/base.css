@@ -3,6 +3,10 @@ a, a:active {
   color: inherit;
 }
 
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -59,11 +63,18 @@ p {
 
 .wrapper__content {
   flex: 1;
+  margin-bottom: 50px;
 }
 
-.services-wrapper {
-  background: url(../../images/bg/services-bg-top.jpg) center top no-repeat;
-  background-color: #E5E5E5;
+.services-wrapper__content {
+  flex: 1;
+  min-height: 416px;
+  display: flex;
+  flex-direction: column;
   color: black;
+}
+
+.welcome-wrapper {
+  background: url(../../images/bg/bg-welcome.jpg) center center no-repeat;
   min-height: 100%;
 }

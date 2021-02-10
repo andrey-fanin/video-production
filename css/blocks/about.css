@@ -17,9 +17,8 @@
   vertical-align: top;
   min-height: 455px;
   width: 787px;
-  margin-left: 354px;
+  margin-left: auto;
   margin-top: -412px;
-  box-sizing: border-box;
 }
 
 .about__title {
@@ -47,11 +46,6 @@
 
 .about__text p:last-child {
   margin-bottom: 0;
-}
-
-.about__info {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 0 0 46px 0;
 }
 
 .btn--about {

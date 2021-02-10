@@ -24,7 +24,6 @@
 .feature {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .features {
@@ -46,7 +45,7 @@
 }
 
 .button-primary {
-  display: inline-flex;
+  display: flex;
 }
 
 .news__list {
@@ -102,12 +101,12 @@
   align-items: center;
 }
 
-.top-line {
+.services__preview {
   display: flex;
   flex-direction: column;
 }
 
-.container__top-line {
+.container__services__preview {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -124,6 +123,11 @@
   align-items: center;
 }
 
+.services__offers {
+  display: flex;
+  flex-direction: column;
+}
+
 .services__offer {
   display: flex;
   justify-content: flex-start;
@@ -136,14 +140,6 @@
 .partners__list {
   display: flex;
   flex-wrap: wrap;
-  width: 96%;
-}
-
-.partners__item {
-  display: flex;
-  flex-grow: 1;
-  justify-content: center;
-  align-items: center;
 }
 
 .partners__link {
