@@ -22,11 +22,14 @@
 
 .news__list {
   margin-bottom: 54px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .news__item {
   vertical-align: top;
   position: relative;
+  flex: 1;
 }
 
 .single-news:first-child {
@@ -63,8 +66,20 @@
   line-height: 1.5;
 }
 
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination__item {
+  text-align: center;
+}
+
 .pagination__list {
   margin-left: 44px;
+  display: flex;
+  align-items: center;
 }
 
 .pagination__item--active .pagination__link {

@@ -8,6 +8,8 @@
 
 .services__offer {
   margin-bottom: 51px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .services__offer:last-child {
@@ -22,6 +24,7 @@
 .offer__text {
   box-sizing: border-box;
   padding-top: 5px;
+  flex: 1;
 }
 
 .offer__title {

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
 @import url("./css/layout/normalize.css");
 @import url("./css/layout/base.css");
-@import url("./css/layout/flexbox.css");
 @import url("./css/blocks/header.css");
 @import url("./css/blocks/menu.css");
 @import url("./css/blocks/preview.css");
@@ -12,3 +11,4 @@
 @import url("./css/blocks/top-line.css");
 @import url("./css/blocks/partners.css");
 @import url("./css/blocks/welcome.css");
+@import url("./css/blocks/reviews.css");

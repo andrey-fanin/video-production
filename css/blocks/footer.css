@@ -1,3 +1,9 @@
+.container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .footer--border--top {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -12,6 +18,19 @@
   color: white;
   position: relative;
   padding-bottom: 1px;
+}
+
+.footer__list {
+  display: flex;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--right {
+  justify-content: flex-end;
 }
 
 .menu__footer {
@@ -33,6 +52,9 @@
 
 .socials {
   margin-right: 61px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 .socials__item {
@@ -45,35 +67,167 @@
 }
 
 .socials__item--icon--telegram .socials__link {
-  background-image: url("../../images/logo/soc/telegram.svg");
+  width: 36px;
+  height: 36px;
+  position: relative;
 }
 
-.socials__item--icon--telegram .socials__link:hover {
-  background-image: url("../../images/logo/soc/telegram-hover.svg");
+.socials__item--icon--telegram .socials__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("../../images/logo/soc/css_sprites.png") -122px -10px;
+  transition: 0.3s;
+}
+
+.socials__item--icon--telegram .socials__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("../../images/logo/soc/css_sprites.png") -122px -66px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.socials__item--icon--telegram .socials__link:hover::before {
+  opacity: 1;
+}
+
+.socials__item--icon--telegram .socials__link:hover::after {
+  opacity: 0;
 }
 
 .socials__item--icon--vk .socials__link {
-  background-image: url("../../images/logo/soc/vk.svg");
+  width: 36px;
+  height: 36px;
+  position: relative;
 }
 
-.socials__item--icon--vk .socials__link:hover {
-  background-image: url("../../images/logo/soc/vk-hover.svg");
+.socials__item--icon--vk .socials__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("../../images/logo/soc/css_sprites.png") -10px -122px;
+  transition: 0.3s;
+}
+
+.socials__item--icon--vk .socials__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("../../images/logo/soc/css_sprites.png") -66px -122px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.socials__item--icon--vk .socials__link:hover::before {
+  opacity: 1;
+}
+
+.socials__item--icon--vk .socials__link:hover::after {
+  opacity: 0;
 }
 
 .socials__item--icon--facebook .socials__link {
-  background-image: url("../../images/logo/soc/f.svg");
+  width: 36px;
+  height: 36px;
+  position: relative;
 }
 
-.socials__item--icon--facebook .socials__link:hover {
-  background-image: url("../../images/logo/soc/f-hover.svg");
+.socials__item--icon--facebook .socials__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("../../images/logo/soc/css_sprites.png") -10px -10px;
+  transition: 0.3s;
+}
+
+.socials__item--icon--facebook .socials__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("../../images/logo/soc/css_sprites.png") -66px -10px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.socials__item--icon--facebook .socials__link:hover::before {
+  opacity: 1;
+}
+
+.socials__item--icon--facebook .socials__link:hover::after {
+  opacity: 0;
 }
 
 .socials__item--icon--instagram .socials__link {
-  background-image: url("../../images/logo/soc/in.svg");
+  width: 36px;
+  height: 36px;
+  position: relative;
 }
 
-.socials__item--icon--instagram .socials__link:hover {
-  background-image: url("../../images/logo/soc/in-hover.svg");
+.socials__item--icon--instagram .socials__link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("../../images/logo/soc/css_sprites.png") -10px -66px;
+  transition: 0.3s;
+}
+
+.socials__item--icon--instagram .socials__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  background: url("../../images/logo/soc/css_sprites.png") -66px -66px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.socials__item--icon--instagram .socials__link:hover::before {
+  opacity: 1;
+}
+
+.socials__item--icon--instagram .socials__link:hover::after {
+  opacity: 0;
 }
 
 .socials__link {
@@ -85,6 +239,7 @@
 
 .footer__link:hover {
   color: #FF3D00;
+  transition: 0.3s;
 }
 
 .footer__contacts {

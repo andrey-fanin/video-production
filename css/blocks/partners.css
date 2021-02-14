@@ -16,18 +16,32 @@
   padding: 88px 0 36px 0;
 }
 
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 96%;
+}
+
 .partners__item {
   min-width: 230px;
   max-width: 300px;
   margin-bottom: 64px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .partners__link {
   filter: grayscale(100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .partners__link:hover {
   filter: grayscale(0);
+  transition: 0.3s;
 }
 
 .partners__item:nth-child(4n+1) {

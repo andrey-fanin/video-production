@@ -1,11 +1,17 @@
 .top-line__container {
   padding-bottom: 34px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .top-line {
   background: url(../../images/bg/services-bg-top.jpg) center top no-repeat;
   color: black;
   min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .top-line__title {
@@ -15,7 +21,12 @@
   line-height: 98px;
   color: white;
   text-transform: uppercase;
-  margin-bottom: 82px;
+  margin-bottom: 87px;
+}
+
+.breadcrumbs__menu {
+  display: flex;
+  align-items: center;
 }
 
 .breadcrumbs__item {
@@ -24,6 +35,8 @@
   font-size: 14px;
   line-height: 19px;
   color: #9A9A9A;
+  display: flex;
+  align-items: center;
 }
 
 .breadcrumbs__item::before {
