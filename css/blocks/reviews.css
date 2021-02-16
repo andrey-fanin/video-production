@@ -7,29 +7,20 @@
 }
 
 .container__reviews {
-  padding: 94px 0;
+  padding: 94px 0 85px;
 }
 
 .reviews__list {
   column-count: 2;
   column-gap: 27px;
-  margin-bottom: 76px;
-}
-
-.reviews__col {
-  display: flex;
-  flex-direction: column;
-  margin-right: 27px;
-}
-
-.reviews__col--align--right {
-  flex-direction: column;
+  margin-bottom: 72px;
 }
 
 .reviews__item {
   width: 557px;
-  min-height: 602px;
+  min-height: 542px;
   margin-bottom: 17px;
+  page-break-inside: avoid;
   display: flex;
   align-items: baseline;
   flex-direction: column;
@@ -56,12 +47,13 @@
 
 .author__data {
   margin-left: 22px;
+  height: 66px;
 }
 
 .author__info {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 3px;
+  margin-bottom: 7px;
 }
 
 .author__link {
@@ -111,11 +103,22 @@
   background: #F2D4C9;
 }
 
+.author__data .choosen__service {
+  padding: 10px 25px;
+}
+
+.review {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
 .review__title {
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 42px;
+  max-width: 488px;
   margin-bottom: 13px;
   position: relative;
   left: 4px;
@@ -137,6 +140,7 @@
   margin-top: auto;
   position: relative;
   left: 1px;
+  justify-content: flex-start;
 }
 
 .discount {
@@ -166,7 +170,8 @@
 
 .form {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: baseline;
   flex-wrap: wrap;
 }
 
@@ -190,7 +195,7 @@
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
-  margin-bottom: 23px;
+  margin-bottom: 7px;
   color: #1A1B1E;
 }
 
@@ -234,6 +239,8 @@
   display: flex;
   width: 720px;
   flex-wrap: wrap;
+  margin-left: 50px;
+  margin-bottom: 15px;
 }
 
 .service__item {
@@ -243,6 +250,18 @@
 
 .service__item:last-child {
   margin-right: 0;
+}
+
+.service__elem {
+  cursor: pointer;
+}
+
+.service__checkbox:checked ~ .choosen__service-controls {
+  background: #F2D4C9;
+}
+
+.service__checkbox {
+  display: none;
 }
 
 .buttons__form {
@@ -262,4 +281,16 @@
 .btn--clear {
   background: #8E8E8E;
   border-color: #8E8E8E;
+}
+
+.button__form .button-primary {
+  padding: 18px 40px;
+}
+
+.button__form .btn--clear {
+  padding: 18px 44px;
+}
+
+.footer-reviews {
+  padding: 25px 0;
 }
