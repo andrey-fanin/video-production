@@ -28,9 +28,9 @@
 
 .reviews__item {
   width: 557px;
-  min-height: 542px;
+  min-height: 602px;
   margin-bottom: 17px;
-  display: inline-flex;
+  display: flex;
   align-items: baseline;
   flex-direction: column;
   padding: 50px 31px 32px;
@@ -164,10 +164,16 @@
   background: #F4F5F5;
 }
 
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .container__form {
   padding: 79px 0 96px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .form__title {
@@ -226,7 +232,7 @@
 
 .service__list {
   display: flex;
-  width: 750px;
+  width: 720px;
   flex-wrap: wrap;
 }
 
@@ -242,6 +248,7 @@
 .buttons__form {
   display: flex;
   justify-content: flex-end;
+  flex-grow: 1;
 }
 
 .button__form {
