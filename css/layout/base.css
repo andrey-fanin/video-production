@@ -83,6 +83,11 @@ p {
 }
 
 .welcome-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 1200px;
   background: url(../../images/bg/bg-welcome.jpg) center center no-repeat;
-  min-height: 100%;
+  background-size: cover;
 }

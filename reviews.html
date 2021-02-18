@@ -30,8 +30,7 @@
               <address class="contacts">
                 <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                 <div class="dropdown">
-                  <div class="contacts__dropdown--title">График работы</div>                
-                  <div class="triangle"></div>
+                  <div class="contacts__dropdown--title">График работы</div> 
                   <div class="dropdown__menu">
                     <span class="dropdown__menu--special">пн-вс: 09:00 - 20:00</span> Обед: 14:00-14:30
                   </div>
@@ -53,13 +52,16 @@
           <ul class="reviews__list">
             <li class="reviews__item">
               <div class="reviews__author">
-                <img src="./images/user-avatar/Ivan.png" alt="Ivan avatar" class="review__avatar">
+                <div class="review__img">
+                  <img src="./images/user-avatar/Ivan.png" alt="Ivan avatar" class="review__avatar">
+                </div>
                 <div class="author__data">
                   <div class="author__info">
                     <a href="#" class="author__link"><span class="author__name">Иван Петрович</span></a>
-                    <div class="author__soc-logo"></div>
                   </div>
-                  <div class="choosen__service choosen__service--active">Съёмки клипа</div>                  
+                  <div class="choosen__service__list">
+                    <div class="choosen__service choosen__service--active">Съёмки клипа</div>                  
+                  </div>
                 </div>
               </div>
               <div class="review">                
@@ -70,13 +72,16 @@
             </li>
             <li class="reviews__item">
               <div class="reviews__author">
-                <img src="./images/user-avatar/Liza.png" alt="Liza avatar" class="review__avatar">
+                <div class="review__img">
+                  <img src="./images/user-avatar/Liza.png" alt="Liza avatar" class="review__avatar">
+                </div>
                 <div class="author__data">
                   <div class="author__info">
                     <a href="#" class="author__link"><span class="author__name">Лиза Сидорова</span></a>
-                    <div class="author__soc-logo"></div>
                   </div>
-                  <div class="choosen__service choosen__service--active">Съёмка свадьбы</div>                  
+                  <div class="choosen__service__list">
+                    <div class="choosen__service choosen__service--active">Съёмка свадьбы</div>                  
+                  </div>
                 </div>
               </div>
               <div class="review">                
@@ -87,13 +92,16 @@
             </li>
             <li class="reviews__item">
               <div class="reviews__author">
-                <img src="./images/user-avatar/Kate.png" alt="Kate avatar" class="review__avatar">
+                <div class="review__img">
+                  <img src="./images/user-avatar/Kate.png" alt="Kate avatar" class="review__avatar">
+                </div>
                 <div class="author__data">
                   <div class="author__info">
                     <a href="#" class="author__link"><span class="author__name">Екатерина Жмых</span></a>
-                    <div class="author__soc-logo"></div>
                   </div>
-                  <div class="choosen__service choosen__service--active">Студийная съёмка</div>                  
+                  <div class="choosen__service__list">
+                    <div class="choosen__service choosen__service--active">Студийная съёмка</div>                  
+                  </div>
                 </div>
               </div>
               <div class="review">                
@@ -104,13 +112,16 @@
             </li>
             <li class="reviews__item">
               <div class="reviews__author">
-                <img src="./images/user-avatar/Anton.png" alt="Anton avatar" class="review__avatar">
+                <div class="review__img">
+                  <img src="./images/user-avatar/Anton.png" alt="Anton avatar" class="review__avatar">
+                </div>
                 <div class="author__data">
                   <div class="author__info">
                     <a href="#" class="author__link"><span class="author__name">Антон Игоревич</span></a>
-                    <div class="author__soc-logo"></div>
                   </div>
-                  <div class="choosen__service choosen__service--active">Реклама</div>                  
+                  <div class="choosen__service__list">
+                    <div class="choosen__service choosen__service--active">Реклама</div>                  
+                  </div>
                 </div>
               </div>
               <div class="review">                
@@ -178,7 +189,7 @@
               </li>
               <li class="service__item">
                 <label class="service__elem">
-                  <input type="checkbox" class="service__checkbox" checked="checked">
+                  <input type="checkbox" checked class="service__checkbox">
                   <div class="choosen__service choosen__service-controls">Съёмка свадьбы</div>
                 </label>
               </li>          
@@ -209,10 +220,10 @@
             </ul>
             <ul class="buttons__form">
               <li class="button__form">
-                <button class="button-primary btn--clear">Очистить</button>
+                <button class="button-primary btn--clear" type="reset">Очистить</button>
               </li>
               <li class="button__form">
-                <button class="button-primary">Отправить</button>
+                <button class="button-primary" type="submit">Отправить</button>
               </li>
             </ul>
           </form>
