@@ -1,0 +1,24 @@
+.header {
+  color: white;
+  padding-top: 12px;
+  margin-bottom: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-main {
+  margin-bottom: 151px;
+  padding-top: 25px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
