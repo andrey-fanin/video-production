@@ -1,5 +1,5 @@
-.welcome-container {
-  min-height: 960px;
+.welcome-container {  
+  min-height: 760px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
   width: 1128px;
   height: 643px;
   content: "";
-  background: url(/images/content/rec.png) center center/cover no-repeat;
+  background: url(../../images/content/rec.png) center center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
