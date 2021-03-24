@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1920, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" class="stylesheet">
+    <title>Landscape</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper-landscape">
+            <section class="landscape">
+                <header class="header header-landscape">
+                    <div class="container container__header">
+                        <div class="header__titles">
+                            <h1 class="header__name">Alex Couls</h1>
+                            <h2 class="header__work">photographer</h2>
+                        </div>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="index.html" class="homepage__link">Homepage</a></li>
+                                <li class="menu__item menu__item--active"><a href="#" class="portfolio__link">Portfolio</a>
+                                    <ol class="portfolio__inside"><a href="#" class="inside__link">People</a></ol>    
+                                    <ol class="portfolio__inside portfolio__inside--active"><a href="#" class="inside__link">Landscape</a></ol>    
+                                    <ol class="portfolio__inside"><a href="#" class="inside__link">Cities</a></ol>    
+                                    <ol class="portfolio__inside"><a href="#" class="inside__link">Various</a></ol>    
+                                </li>
+                                <li class="menu__item"><a href="about.html" class="about-me__link">About me</a></li>
+                            </ul>
+                        </nav>
+                        <ul class="socials">
+                            <li class="socials__item socials__item--icon--facebook">
+                                <a href="#" class="socials__link"></a>
+                            </li>                            
+                            <li class="socials__item socials__item--icon--google-plus">
+                                <a href="#" class="socials__link"></a>
+                            </li>                            
+                            <li class="socials__item socials__item--icon--twitter">
+                                <a href="#" class="socials__link"></a>
+                            </li>                            
+                            <li class="socials__item socials__item--icon--dribbble">
+                                <a href="#" class="socials__link"></a>
+                            </li>                            
+                        </ul>
+                    </div>
+                </header>
+                <div class="container container__landscape">
+                    <ul class="landscape__photos slider">
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/high-mountains.jpg" alt="high mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-snow.jpg" alt="stream snow" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/rising-mountains.jpg" alt="rising mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-wood.jpg" alt="stream wood" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/water-and-mountains.jpg" alt="water and mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/alone-tree.jpg" alt="alone tree" class="landscape__img"></li>                        
+                    </ul>                    
+                    <ul class="landscape__photos slider">
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/alone-tree.jpg" alt="alone tree" class="landscape__img"></li>                        
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/water-and-mountains.jpg" alt="water and mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-wood.jpg" alt="stream wood" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/high-mountains.jpg" alt="high mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-snow.jpg" alt="stream snow" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/rising-mountains.jpg" alt="rising mountains" class="landscape__img"></li>
+                    </ul>                    
+                    <ul class="landscape__photos slider">
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/high-mountains.jpg" alt="high mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-snow.jpg" alt="stream snow" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-wood.jpg" alt="stream wood" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/water-and-mountains.jpg" alt="water and mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/rising-mountains.jpg" alt="rising mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/alone-tree.jpg" alt="alone tree" class="landscape__img"></li>                        
+                    </ul>                    
+                    <div class="pagination">
+                        <ul class="pagination__list">
+                            <li class="pagination__item pagination__item--active" onclick="currentSlide(1)"> 
+                                <a href="#" class="pagination__link"></a>
+                            </li>
+                            <li class="pagination__item" onclick="currentSlide(2)">
+                                <a href="#" class="pagination__link"></a>
+                            </li>
+                            <li class="pagination__item" onclick="currentSlide(3)">
+                                <a href="#" class="pagination__link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>

@@ -1,0 +1,143 @@
+.container__hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    text-align: end;
+    padding: 4px 50px 58px;
+    width: 1473px;
+    height: 946px;
+}
+
+.hero__list {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 19px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.hero__item {
+    display: inline-flex;
+    font-size: 206px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    color: #2d2d2d;
+    text-transform: uppercase;   
+    line-height: 210px;
+}
+
+.hero__item--people:hover {
+    background: url(../../images/content/hero/people.jpg)no-repeat center right/ cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    background-size: 873px;
+}
+
+.hero__item--landscape:hover {
+    background:url(../../images/content/hero/landscape.jpg)no-repeat center -430px /cover;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;    
+    cursor:pointer;
+}
+
+.hero__item--cities:hover {
+    background: url(../../images/content/hero/cities.jpg)no-repeat top -150px left -11px/cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    background-size: 790px;
+}
+
+.hero__item--various:hover {
+    background:url(../../images/content/hero/various.jpg)no-repeat center /cover;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;    
+    cursor:pointer;
+}
+
+.hero__item--animals:hover {
+    background: url(../../images/content/hero/animals.jpg)no-repeat top -200px left/cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    background-size: 1060px;
+}
+
+.hero__item--cars:hover {
+    background: url(../../images/content/hero/cars.jpg)no-repeat top -29px right -10px/cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    background-size: 870px;
+}
+
+.hero__item--food:hover {
+    background: url(../../images/content/hero/food.jpg)no-repeat top -50px right -20px /cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    background-size: 690px;
+}
+
+.hero__item--sport:hover {
+    background: url(../../images/content/hero/sport.jpg)no-repeat top -116px right -80px/cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    background-size: 1110px;
+}
+
+.hero__item--macro:hover {
+    background: url(../../images/content/hero/macro.jpg)no-repeat top -120px right -60px /cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    background-size: 1000px;
+}
+
+.hero__item--business:hover {
+    background: url(../../images/content/hero/business.jpg)no-repeat top -70px right -40px/cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    background-size: 1150px;
+}
+
+.hero__item--erotic:hover {
+    background: url(../../images/content/hero/erotic.jpg)no-repeat top 69% right/cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    background-size: 835px;    
+}
+
+.hero__item:hover {    
+    animation: fade__fast 1s ease-in-out;
+}
+
+.container__hero .hero__list {
+    animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: .1
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade__fast {
+    from {
+        opacity: .1
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+
+

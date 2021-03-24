@@ -1,0 +1,42 @@
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.pagination__item {
+    text-align: center;
+    margin-right: 23px;
+}
+
+.pagination__item:last-child {
+    margin-right: 0;
+}
+
+.pagination__link {
+    background: #363636;
+}
+
+.pagination__link:hover {
+    background: #2b8d87;
+    transition: 0.3s;
+}
+
+.pagination__list {
+    display: flex;
+    align-items: center;
+}
+  
+.pagination__item--active .pagination__link {
+    background: #2b8d87;
+    color: white;
+}
+  
+.pagination__link {
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    position: relative;
+}
